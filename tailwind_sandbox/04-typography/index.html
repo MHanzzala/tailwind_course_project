@@ -4,29 +4,79 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>tailwind.config ={
+      theme: {
+      fontFamily: {
+       'sans': ['ui-sans-serif', 'system-ui'],
+       'serif': ['Montserrat', 'Georgia'],
+       'mono': ['ui-monospace', 'SFMono-Regular'],
+      }
+    }
+    }</script>
     <title>Typography</title>
   </head>
   <body>
     <!-- Font Family -->
+    <div class="font-sans">Tailwind is awesome</div>
+    <div class="font-serif">Tailwind is awesome</div>
+    <div class="font-mono">Tailwind is awesome</div>
 
     <!-- Font Size -->
 
+    <div class="text-xs">Lahore Qalanader Great</div>
+    <div class="text-sm">Lahore Qalanader Great</div>
+    <div class="text-base">Lahore Qalanader Great</div>
+    <div class="text-lg">Lahore Qalanader Great</div>
+    <div class="text-xl">Lahore Qalanader Great</div>
+    <div class="text-2xl">Lahore Qalanader Great</div>
+    <div class="text-3xl">Lahore Qalanader Great</div>
+
     <!-- Font Weight -->
+
+    <div class="font-light">Lahore Qalanader Great</div>
+    <div class="font-normal">Lahore Qalanader Great</div>
+    <div class="font-medium">Lahore Qalanader Great</div>
+    <div class="font-semibold">Lahore Qalanader Great</div>
+    <div class="font-bold">Lahore Qalanader Great</div>
 
     <!-- Letter Spacing -->
 
+    <div class="tracking-tight">Lahore Qalanader Great</div>
+    <div class="tracking-normal">Lahore Qalanader Great</div>
+    <div class="tracking-wide">Lahore Qalanader Great</div>
+
     <!-- Text Alignment -->
+    <div class="text-left">Lahore Qalanader Great</div>
+    <div class="text-center">Lahore Qalanader Great</div>
+    <div class="text-right">Lahore Qalanader Great</div>
 
     <!-- Text Decoration -->
 
+    <div class="underline decoration-4 decoration-blue-300">Lahore Qalanader Great</div>
+
+    
     <!-- Decoration Style -->
+    <div class="underline decoration-4 decoration-dotted">Lahore Qalanader Great</div>
+    <div class="underline  decoration-double">Lahore Qalanader Great</div>
+    <div class="underline  decoration-dashed">Lahore Qalanader Great</div>
+    <div class="underline  decoration-wavy">Lahore Qalanader Great</div>
 
     <!-- Decoration Offset -->
+    <div class="underline decoration-4 decoration-blue-300 underline-offset-4">
+      Lahore Qalanader Great</div>
 
     <!-- Text Transform -->
+
+    <p class="normal-case">This is Lahore Qalander</p>
+    <p class="uppercase">This is Lahore Qalander</p>
+    <p class="lowercase">This is Lahore Qalander</p>
+    <p class="capitalize">this is lahore qalander</p>
   </body>
-</html>
+</html> 
 
 <!-- Font Family
   font-sans	
